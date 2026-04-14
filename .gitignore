@@ -1,0 +1,73 @@
+# Ignore generated files
+*.pyc
+__pycache__/
+
+# Ignore IDE files
+*.iml
+.idea/
+*.ipynb_checkpoints/
+
+# Ignore node modules
+node_modules/
+
+# Ignore compiled Java files
+*.class
+
+# Ignore eclipse metadata
+.eclipseproject/
+.metadata/
+
+# Ignore IntelliJ project files
+.intellij/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Android build files
+build/
+intermediates/
+gen/
+bin/
+env/
+
+# Ignore Xcode build files
+DerivedData/
+xcache/
+*/artifacts/
+basics/recomendation-sys/artifacts
+lang-chain/langchain_env/*
+lang-chain/.env
+lang-chain/langchain_module_files.zip
+llm/my_saved_models
+llm/.env
+
+xl-net/test_trainer
+xl-net/fine_tuned_model
+
+
+ai-rag-app/
+
+# Ignore Gradle wrapper
+.gradle/wrapper/
+
+# Ignore Maven pom files
+pom.xml
+
+# Ignore Python build artifacts
+__pycache__/
+*.egg-info/
+
+# Ignore Ruby gems
+/.bundle/
+/Gemfile.lock
+
+# Ignore Swift build products
+Products/
+.xcodeproj/
+
+# Ignore project-specific files
+config/env.json
+src/main.py
+requirements.txt
+tests/test_main.py
+tests/test_app/
